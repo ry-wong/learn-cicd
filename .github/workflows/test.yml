@@ -16,4 +16,4 @@ jobs:
         run: echo "Learning CI/CD"
 
       - name: Print OS name
-        run: echo "This job is running on ${{ runner.os }}
+        run: echo "This job is running on ${{ runner.os }}"
