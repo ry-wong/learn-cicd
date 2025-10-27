@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v5
       
       - name: Talk
-        uses: echo "Learning CI/CD"
+        run: echo "Learning CI/CD"
