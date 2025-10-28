@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ry-wong/learn-cicd.git'
+                git url: 'https://github.com/ry-wong/learn-cicd.git', branch: 'main'
             }
         }
 
